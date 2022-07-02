@@ -1,6 +1,8 @@
 # DensePose: 
 **Dense Human Pose Estimation In The Wild**
 
+How to make densepose npy dataset
+
 _Rıza Alp Güler, Natalia Neverova, Iasonas Kokkinos_
 
 [[`densepose.org`](https://densepose.org)] [[`arXiv`](https://arxiv.org/abs/1802.00434)] [[`BibTeX`](#CitingDensePose)]
