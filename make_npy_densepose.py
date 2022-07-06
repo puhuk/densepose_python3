@@ -5,6 +5,8 @@ import pickle
 import numpy as np
 img_list = glob.glob('../deepfashion//Flow-Style-VTON/train/dataset/VITONHD_traindata/vitondHD/zalando-hd-resized/train/image/*.jpg')
 
+os.environ['MKL_THREADING_LAYER'] = 'GNU'
+
 for item in img_list:
     os.system('python tools/apply_net.py dump configs/densepose_rcnn_R_50_FPN_s1x.yaml \
     https://dl.fbaipublicfiles.com/densepose/densepose_rcnn_R_50_FPN_s1x/165712039/model_final_162be9.pkl ' \
